@@ -1,23 +1,27 @@
 import logo from './logo.svg';
 import './App.css';
-
+import React from 'react'
+import Dropdown from './Dropdown'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Hello</h1>
+      <Dropdown />
+      {/*<form>
+        <option>
+          <select>Choose State</select>
+          
+          <select>Delhi</select>
+          <select>Uttar Pradesh</select>
+          <option>
+          <select>Gorakhpur</select>
+          <select>Lucknow</select>
+          <select>Varanashi</select>
+          </option>
+          <select>Bihar</select>
+          
+        </option>
+      </form>*/}
     </div>
   );
 }
